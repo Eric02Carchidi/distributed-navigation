@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  font-size: 1.125rem;
   background-color: #fff;
 }
 
@@ -12,23 +13,23 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 1.5rem;
+  margin: .5rem;
+  padding: 1rem;
 }
 
 img {
   width: 2rem;
-  margin: 0 0 1.5rem;
+  margin: .5rem;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e2e2e2
+  background-color: #e2e2e2;
 }
 
-h1, h2 {
+header h1 {
   margin: .5rem;
 }
 
@@ -55,5 +56,5 @@ nav a,
 nav a:visited {
   color: #0074d9;
   text-decoration: none;
-  padding: .6rem 1rem;
+  padding: .6em 1rem;
 }
