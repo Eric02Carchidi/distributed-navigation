@@ -58,3 +58,9 @@ nav a:visited {
   text-decoration: none;
   padding: .6em 1rem;
 }
+
+nav a:hover,
+nav a:focus {
+  background-color: #000;
+  color: #fff;
+}
