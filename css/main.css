@@ -11,6 +11,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 1.5rem;
+}
+
 img {
   width: 2rem;
   margin: 0 0 1.5rem;
@@ -27,7 +32,7 @@ h1, h2 {
   margin: .5rem;
 }
 
-header .presentation {
+header img {
   width: 2rem;
   order: -1;
   margin-right: .5rem;
